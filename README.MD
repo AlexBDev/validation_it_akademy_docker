@@ -34,6 +34,9 @@ The go to http://IP_ADDRESS:8080/ the setup of rancher take long check the progr
 
 Then go to "Infrastructure->Host" click on save then copy and paste the command in section 5 WITHOUT 
 sudo in your terminal.
+
+Go to "Stack" and wait for healtcheck, ipsec, network-services, scheduler to turn green.
+
 Go to API KEY then Advanced options click on "Add Environment API Keys" complete the command
 
 `./rancher-compose --url http://ADDRESS_IP:8080 --access-key <username_of_environment_api_key> --secret-key 
