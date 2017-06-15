@@ -8,7 +8,7 @@
 
 ## Setup
 
-During the setup make sure the containers scaled up correctly on 
+During the setup make sure the containers boot up correctly on
 
 ### Auto 
 
@@ -16,8 +16,8 @@ Run `$ ./bootstrap.sh`
 
 ### Manually
 
-Rancher need to use AWS services or http link to build image in docker-compose.yml so we need to create the image 
-firstly.
+Rancher need to use AWS services or http link to build image in docker-compose.yml, this is why we need to create nginx 
+image firstly.
 
 Go to dockerfiles/nginx directory and build the nginx image as follow
 `$ docker build -t my_nginx .`
