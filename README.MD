@@ -32,7 +32,7 @@ The go to http://IP_ADDRESS:8080/ the setup of rancher take long check the progr
 
 `$ docker logs -f rancher_toy`
 
-Then go to "Infrastructure->Host" click on save then add a new host copy and paste the command in section 5 WITHOUT 
+Then go to "Infrastructure->Host" click on save then copy and paste the command in section 5 WITHOUT 
 sudo in your terminal.
 Go to API KEY then Advanced options click on "Add Environment API Keys" complete the command
 
