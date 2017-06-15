@@ -1,0 +1,18 @@
+version: '2'
+services:
+    mysql:
+        scale: 1
+    phpmyadmin:
+        scale: 1
+    maildev:
+        scale: 1
+    nginx:
+        scale: 1
+        health_check:
+            port: 80
+            interval: 2000
+            initializing_timeout: 60000
+            unhealthy_threshold: 3
+            strategy: recreate
+            healthy_threshold: 2
+            response_timeout: 2000
